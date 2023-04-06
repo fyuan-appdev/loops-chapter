@@ -18,4 +18,9 @@
 # 20
 
 p "Enter a number:"
-
+number = gets.chomp.to_i
+index = 1
+10.times do
+  p number*index
+  index = index+1
+end
